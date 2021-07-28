@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+button {
+    cursor: pointer;
+}
+
+h2 {
+    color: #6e7073;
+}
+.padding {
+    padding: 0 8%;
+}
+
+.main-menu {
+    background-color: #653FF5;
+    height: 60px;
+}
+
+.logo {
+    margin: 0;
+    width: 30%;
+    float: left;
+    padding: 13px;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    transition: .3s;
+    font-weight: 500;
+}
+
+.logo a:hover, .menu a:hover {
+	color: lightgreen;
+}
+
+.hero-area, #our-recipies {
+    overflow: hidden;
+    margin: 80px 0 ;
+}
+
+.hero-left, .about-food-left {
+    width: 50%;
+    float: left;
+}
+
+.hero-left h2 {
+    font-size: 80px;
+}
+
+.hero-right, .about-food-right {
+    width: 50%;
+    float: right;
+}
+.hero-right img {
+    width: 100%;
+}
+span{
+    color:  #F38403;
+}
+
+.btn {
+    display: inline-block;
+    padding: 20px 30px;
+    background-image: linear-gradient(#6929E9, #4A73E2);
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+    border: none;
+    font-size: 18px;
+}
+/* About Food Area */
+
+#about-food{
+    overflow: hidden;
+    background-image: url(images/about-bg.jpg);
+    height: 100%;
+    background-size: cover;
+    padding: 130px 15% 0;
+}
+
+#about-food img {
+    display: block;
+}
+
+/* Receipie */
+#our-recipies{
+    padding: 0 8% 20px;
+}
+.recipies-title{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto 50px;
+}
+
+.single-recipie{
+    width: 27%;
+    float: left;
+    box-shadow: 2px 2px 15px gray;
+    background-color: white;
+    padding: 2%;
+    border-radius: 20px;
+    margin-right: 2%;
+    line-height: 28px;
+}
+
+#our-recipies img {
+    width: 100%;
+}
+
+
+/*  */
+#new-item {
+    margin: auto;
+    padding: 100px 10% 120px 10%;
+    background-image: linear-gradient(#fff, #5249E7);
+    text-align: center;
+}
+#new-item h2 {
+    margin-bottom: 20px;
+}
+#new-item input[type="email"] {
+    border: none;
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px 0 0 20px;
+}
+#new-item input[type="submit"] {
+    border: none;
+    padding: 20px 30px;
+    border-radius: 0 20px 20px 0;
+    margin-left: -5px;
+    cursor: pointer;
+    background-color: #F38403;
+}
+
+.footer-area { 
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.footer-area p, .foooter-area h2 {
+    margin: 0;
+}
